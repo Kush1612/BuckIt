@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Verified - buckit</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <div class="bg-white p-8 sm:p-12 rounded-xl shadow-lg max-w-md w-full text-center">
+        <!-- App Logo/Name -->
+        <h1 class="text-3xl font-bold text-blue-600 mb-6">
+            buckit
+        </h1>
+
+        <!-- Success Icon -->
+        <div class="flex justify-center mb-6">
+            <svg class="w-16 h-16 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+        </div>
+
+        <!-- Verification Message -->
+        <h2 class="text-2xl font-semibold text-gray-800 mb-3">
+            Your Account is Now Verified!
+        </h2>
+        <p class="text-gray-600 text-base">
+            You can now go back to the login page to sign in.
+        </p>
+
+        <!-- Login Button -->
+        <div class="mt-8">
+            <!-- 
+              IMPORTANT: Replace '#' with the actual URL of your app's login page.
+              For example: href="https://yourapp.com/login" or href="/login"
+            -->
+            <a href="#" 
+               class="inline-block w-full sm:w-auto bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition-all duration-300 ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                Go to Login Page
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
