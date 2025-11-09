@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "BuckeIt",
+    "slug": "bucket-us",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "extra": {
+      "SUPABASE_URL": "https://uoqlnqwczqfqcpmfbvsg.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVvcWxucXdjenFmcWNwbWZidnNnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI0MjY3MDgsImV4cCI6MjA3ODAwMjcwOH0.2oJ-1KmsUy8FZQDABbA86FfpvjOHVk3gI3MreWv9GfI",
+      "eas": {
+        "projectId": "25a4a511-e8e9-444c-8acb-f25ac9f5c465"
+      }
+    },
+    "scheme": "bucketus",
+    "icon": "./assets/Gemini_Generated_Image_6ly2xn6ly2xn6ly2.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/Gemini_Generated_Image_6ly2xn6ly2xn6ly2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Gemini_Generated_Image_6ly2xn6ly2xn6ly2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.kshitij_1612.bucketus"
+    },
+    "web": {
+      "favicon": "./assets/Gemini_Generated_Image_6ly2xn6ly2xn6ly2.png"
+    }
+  }
+}
